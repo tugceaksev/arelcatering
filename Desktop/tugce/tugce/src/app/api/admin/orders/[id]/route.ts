@@ -22,7 +22,7 @@ export async function PATCH(
     });
 
     return NextResponse.json(order);
-  } catch (error) {
+  } catch {
     return new NextResponse('Error updating order', { status: 500 });
   }
 }
@@ -47,7 +47,7 @@ export async function DELETE(
     });
 
     return new NextResponse(null, { status: 204 });
-  } catch (error) {
+  } catch {
     return new NextResponse('Error deleting order', { status: 500 });
   }
 } 

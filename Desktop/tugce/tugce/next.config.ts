@@ -17,10 +17,3 @@ const nextConfig: NextConfig = {
 
 export default nextConfig;
 
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // 🚨 Hataları build sırasında YOK SAY
-  },
-};
-
-export default nextConfig;
