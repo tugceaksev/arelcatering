@@ -11,14 +11,13 @@ export default function OrderPageClient() {
     return null;
   }
 
-  const product = cartItems[0];
 
   return (
     <div className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg shadow-lg p-6">
           <h1 className="text-2xl font-bold mb-8">Sipariş Formu</h1>
-          <OrderForm product={product} />
+          <OrderForm />
         </div>
       </div>
     </div>
